@@ -5,29 +5,70 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>首頁</title>
+  <title>
+    首頁
+  </title>
   <link rel="stylesheet" href="./assets/style/all.css">
 </head>
 
 <body>
   <header class="header">
-    <h2>這是 header</h2>
-    <a href="index.html">首頁</a>
+    <div class="header container flex justify-between items-center">
+      <h1 class="logo"><a href="index.html">glasses - 看得清，才能看得遠</a></h1>
+      <ul class="flex text-xl">
+        <li class="me-64"><a href="#">系列鏡框</a></li>
+        <li class="me-64"><a href="#">門市據點</a></li>
+        <li class="me-64"><a href="#">部落格</a></li>
+        <li><a href="#">常見問題</a></li>
+      </ul>
+    </div>
   </header>
 
   
-<h1>
-  哈囉:DD
-</h1>
-<a href="page1.html">到內頁一</a>
+<div class="container">
+  <p>哈囉:DD</p>
+  <a href="page1.html">到內頁一</a>
+</div>
 
-<div class="box"></div>
 
-  <footer class="footer">
-    footer
-  </footer>
-  <script src="./assets/js/vendors.js"></script>
-  <script src="./assets/js/all.js"></script>
+    <footer class="footer">
+      <div class="footer-sm container pb-32">
+        <div class="display-none-sm flex justify-between items-center pt-48 pb-24">
+          <ul class="flex menu-list">
+            <li class="me-48"><a href="index.html">首頁</a></li>
+            <li class="me-48"><a href="#">系列鏡框</a></li>
+            <li class="me-48"><a href="#">門市據點</a></li>
+            <li class="me-48"><a href="#">部落格</a></li>
+            <li><a href="#">常見問題</a></li>
+          </ul>
+          <ul class="flex link-list">
+            <li class="facebook me-32"><a href="#"></a></li>
+            <li class="instagram me-32"><a href="#"></a></li>
+            <li class="line"><a href="#"></a></li>
+          </ul>
+        </div>
+        <div class="sm-layout">
+          <ul class="contact-sm pb-32">
+            <li class="text-4xl mb-8"><span class="material-symbols-outlined me-22">call</span>0800-000-000</li>
+            <li class="text-4xl"><span class="material-symbols-outlined me-22">mail</span>glasses@business.com</li>
+          </ul>
+          <ul class="link-list-sm">
+            <li class="facebook me-8"><a href="#"></a></li>
+            <li class="instagram me-8"><a href="#"></a></li>
+            <li class="line"><a href="#"></a></li>
+          </ul>
+        </div>
+        <div class="copyright flex justify-between items-center pt-32">
+          <p>Copyright © 2020 Glasses.All rights reserved.</p>
+          <ul class="flex text-sm">
+            <li class="me-48"><a href="#">隱私權政策</a></li>
+            <li><a href="#">服務條款</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script src="./assets/js/vendors.js"></script>
+    <script src="./assets/js/all.js"></script>
 </body>
 
 </html>
